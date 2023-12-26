@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&display=swap');
+
+h1{
+  font-family: 'Kanit', sans-serif;
+}
+
+.App {
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+
+}
+
+#light.App{
+  background: #f0f0f0;
+  transition: 0.2s;
+}
+
+#dark.App{
+  background: rgb(45, 47, 51);
+  color:rgb(174, 181, 189);
+  transition: 0.2s;
+}
+
+#dark button{
+  background: rgb(45, 47, 51);
+  color:rgb(174, 181, 189);
+  transition: 0.2s;
+}
+
+
+.menu,.quiz,.score{
+
+  width: 50vh;
+  height: 50vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  
+}
+
+#dark div.menu{
+  background-color: black;
+  transition: 0.2s;
+}
+
+#dark h2{
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+
+#dark div.quiz{
+  background-color: black;
+  transition: 0.2s;
+}
+
+#dark div.score{
+  background-color: black;
+  transition: 0.2s;
+}
+
+#light div.menu{
+  background: lightblue;
+  transition: 0.2s;
+}
+
+#light div.quiz{
+  background: lightblue;
+  transition: 0.2s;
+}
+
+#light div.score{
+  background: lightblue;
+  transition: 0.2s;
+}
+
+.menu button,.quiz button,.score button{
+
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.15s;
+
+}
+
+.switch{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  
+}
+
+.switch label{
+  margin-right: 5px;
+}
+
+#light button:hover{
+  background: orange;
+  color: aliceblue;
+}
+
+#dark button:hover{
+  background: orange;
+  color: aliceblue;
+}
+
+footer{
+  margin-top: 10px;
+}
+
+
+
+

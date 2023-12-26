@@ -1,0 +1,39 @@
+
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input{
+    border: 1px solid #dededede;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    background-color: greenyellow;
+    border: 1px solid rgb(200, 255, 117);
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+    margin: 10px 0 30px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+    
+}
+
+.btn:hover{
+    background-color: rgb(143, 238, 0);
+    border: 1px solid rgb(200, 255, 117);
+
+}
